@@ -18,8 +18,9 @@ for (const numero of numeros) {
             let string = display.innerHTML.toString();
             
             display.innerHTML = string.substring(0, string.length-1);
-        }
-        else{
+        }else if ( (numero.id === "erase" || numero.id === "btn-equal" || numero.id === "+" || numero.id === "-" || numero.id === "*" || numero.id ==="/") && display.innerHTML === "" ){
+            display.innerHTML = "";
+        }else{
 
             display.innerHTML += numero.id;
             display.scrollTop = display.scrollHeight;
