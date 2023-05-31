@@ -37,8 +37,8 @@ h1 {
 }
 .calculadora-wrapper .numeros {
   display: grid;
-  grid-template-columns: repeat(4, minmax(5vw, 70px));
-  grid-template-rows: 30px repeat(6, minmax(5vw, 70px));
+  grid-template-columns: repeat(4, minmax(5vw, 65px));
+  grid-template-rows: 30px repeat(6, minmax(5vw, 65px));
   gap: 10px;
 }
 .calculadora-wrapper .numeros #dark {
