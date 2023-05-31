@@ -11,7 +11,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-image: url(/Calculadora-proyecto-1/assets/3671320.jpg);
+  background-image: url(../assets/3671320.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
